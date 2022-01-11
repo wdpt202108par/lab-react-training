@@ -3,12 +3,9 @@ import "./Random.css";
 
 
 function Random(props) {
-  const min = Number(props.min);
-  const max = Number(props.max);
-
   return (
     <div className="Random">
-      <p>Random value between {min} and {max} =&gt; {genRandomNum(min, max)}</p>
+      <p>Random value between {props.min} and {props.max} =&gt; {genRandomNum(props.min, props.max)}</p>
     </div>
   );
 }
