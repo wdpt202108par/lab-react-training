@@ -9,7 +9,7 @@ function Idcard(props) {
       <p>Gender: {props.gender}</p>
       <p>Height: {props.height}m</p>
       <p>Birth: {props.birth.toDateString()}</p>
-      <img src={props.picture} />
+      <img src={props.picture} alt="img"></img>
     </div>
   );
 }
