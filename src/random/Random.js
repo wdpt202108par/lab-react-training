@@ -1,5 +1,6 @@
 import React from "react";
 import "./Random.css";
+import { genRandomNum } from "../Helpers";
 
 
 function Random(props) {
@@ -10,8 +11,6 @@ function Random(props) {
   );
 }
 
-function genRandomNum(min, max) {
-  return Math.floor(Math.random() * (max - min) + min);
-}
+
 
 export default Random;

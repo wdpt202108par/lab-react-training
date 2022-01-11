@@ -1,0 +1,25 @@
+.CreditCard {
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+#card-num {
+  font-size: 30px;
+}
+
+#card-type,
+.card-info {
+  display: flex;
+}
+
+#card-type {
+  justify-content: flex-end;
+}
+
+.card-info {
+  justify-content: flex-start;
+  column-gap: 20px;
+}

@@ -1,14 +1,6 @@
 import React from "react";
 import "./BoxColor.css";
-
-function colorToHex(color) {
-  let hexadecimal = color.toString(16);
-  return hexadecimal.length === "1" ? "0" + hexadecimal : hexadecimal;
-}
-
-function rgbToHex(r, g, b) {
-  return "#" + colorToHex(r) + colorToHex(g) + colorToHex(b);
-}
+import { rgbToHex } from "../Helpers";
 
 
 function BoxColor(props) {
