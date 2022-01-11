@@ -1,5 +1,6 @@
 import React, { Component} from 'react';
 import './IdCard.css';
+import dayjs from 'dayjs';
 
 
 /* Iteration 1 | Component: IdCard */
@@ -19,7 +20,7 @@ class IdCard extends Component {
             <li><strong>First Name : </strong>{this.props.firstName}</li>
             <li><strong>Gender : </strong>{this.props.gender}</li>
             <li><strong>Height : </strong>{this.props.height/100} m</li>
-            <li><strong>Birth : </strong>{this.props.birth.formatDate}</li>
+            <li><strong>Birth : </strong> {dayjs(this.props.birth).format('ddd MMM DD YYYY')}</li>
           </ul>
         </div>
       </div>  
