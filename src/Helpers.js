@@ -14,8 +14,20 @@ function rgbToHex(r, g, b) {
 function formatDate(month, year) {
   month = month.length === "1" ? "0" + month : month;
   year = String(year).slice(2);
-
   return month + "/" + year;
 }
 
-export { rgbToHex, genRandomNum, formatDate };
+function displayStars(num) {
+  let rating = Math.round(num);
+  let maxStars = 5;
+  let output = "";
+
+  for (let i = 0; i < maxStars; i++) {
+    output += i < rating ? "★" : "☆";
+  }
+
+  return output;
+
+}
+
+export { rgbToHex, genRandomNum, formatDate, displayStars };
