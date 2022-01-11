@@ -4,11 +4,13 @@ const Greetings = ({ lang, children }) => {
   let greeting = {
     fr: 'Bonjour',
     de: 'Hallo',
+    es: 'Hola',
+    en: 'Hello',
   };
   return (
     <div>
       <p>
-        {greeting[lang]} {children}{' '}
+        {greeting[lang]} {children}
       </p>
     </div>
   );

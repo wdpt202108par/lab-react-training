@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Idcard from './idcard/Idcard';
 import Greetings from './greetings/Greetings';
+import Random from './random/Random';
 
 const App = () => {
   return (
@@ -24,6 +25,8 @@ const App = () => {
       ></Idcard>
       <Greetings lang="de">Ludwig</Greetings>
       <Greetings lang="fr">François</Greetings>
+      <Random min={1} max={6}></Random>
+      <Random min={1} max={100}></Random>
     </div>
   );
 };
