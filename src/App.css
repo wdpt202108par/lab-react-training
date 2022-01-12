@@ -1,5 +1,15 @@
 .App {
-  text-align: center;
+  margin: 10px;
+}
+
+.App p {
+  border: solid 1px black;
+  padding: 5px;
+  margin : 10px 0;
+}
+
+.cardContainer {
+  display: flex;
 }
 
 .App-logo {
