@@ -6,7 +6,9 @@ class BoxColor extends Component {
     const divStyle = {
       backgroundColor: `rgb(${this.props.r}, ${this.props.g}, ${this.props.b})`,
       color: 'white',
-      textAlign: 'center'
+      textAlign: 'center',
+      padding: '20px',
+      marginTop: '10px'
     }
 
     const rgbVar = `rgb(${this.props.r}, ${this.props.g}, ${this.props.b})`

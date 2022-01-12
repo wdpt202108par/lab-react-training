@@ -4,6 +4,7 @@ import Greetings from './greetings/Greetings';
 import Random from './random/Random';
 import BoxColor from './box-color/BoxColor';
 import CreditCard from './credit-card/CreditCard';
+import Rating from './rating/Rating';
 import './App.css';
 
 function App() {
@@ -39,7 +40,7 @@ function App() {
         <BoxColor r={255} g={0} b={0} />
         <BoxColor r={128} g={255} b={0} />
 
-      <h1>CeditCard</h1>
+      <h1>CreditCard</h1>
       <div className="cardContainer">
         <CreditCard
           type="Visa"
@@ -74,6 +75,12 @@ function App() {
       </div>
       
       <h1>Rating</h1>
+        <Rating>0</Rating>
+        <Rating>1.49</Rating>
+        <Rating>1.5</Rating>
+        <Rating>3</Rating>
+        <Rating>4</Rating>
+        <Rating>5</Rating>
 
     </div>
   );
