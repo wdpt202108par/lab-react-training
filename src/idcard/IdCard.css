@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  border: solid 1px black;
+  margin: 10px 30px;
+}
+
+.container img {
+  margin: 5px;
+}
+
+.container ul {
+  margin: 0;
+  padding: 5px 0;
+  text-align:left;
+}
+
+.container li {
+  list-style: none;
+}

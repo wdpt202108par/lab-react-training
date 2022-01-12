@@ -2,6 +2,21 @@
   text-align: center;
 }
 
+.App h1 {
+  text-align: left;
+}
+
+.App p {
+text-align: left;
+border: solid 1px black;
+padding: 5px;
+margin : 5px;
+}
+
+.cardContainer {
+  display: flex;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
