@@ -1,0 +1,23 @@
+.idcard {
+    display: flex;
+    border: 1px solid;
+    margin-bottom: 8px;
+    align-items: flex-start;
+    height: 140px;
+}
+
+.idcard > img {
+  margin: 5px;
+  width: 130px;
+  height: 130px;
+}
+
+.carddetails {
+    margin: 5px;
+    padding:0;
+}
+
+.carddetails > li {
+    list-style-type: none;
+    text-align: left;
+}

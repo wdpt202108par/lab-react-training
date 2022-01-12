@@ -1,0 +1,36 @@
+.drivercard {
+    display: flex;
+    background-color:#425cbb;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px;
+    height: 140px;
+}
+
+.drivercard > img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    left: 580px;
+    padding: 1.5% 1.5%;
+}
+
+.drivername {
+    text-align: left;
+    margin-left: 700px;
+}
+
+.drivername > p {
+    margin-bottom:0;
+}
+
+.drivername > p:nth-child(1) {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.drivername > p:nth-child(3) {
+    margin-top:0;
+}

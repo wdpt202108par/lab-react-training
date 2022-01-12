@@ -1,0 +1,15 @@
+.boxcolor > p {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border : 1px solid black;
+    padding-top:16px;
+    padding-bottom: 16px;
+}
+
+.boxcolor:nth-child(odd){
+    color: white;
+}

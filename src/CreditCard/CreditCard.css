@@ -1,0 +1,46 @@
+.allcreditcards {
+    display:inline-flex;
+    position: relative;
+    left: -200px;
+}
+
+.creditcard {
+    width: 340px;
+    height: 190px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.creditcard > p {
+    margin-bottom:0;
+}
+
+.creditcard > p:nth-child(4) {
+    text-align: left;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.creditcard >p:nth-child(2) {
+    font-size: 2rem;
+}
+
+.creditcarddetails {
+    display: flex;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.creditcarddetails > p {
+    padding-right: 20px;
+    margin-bottom: 0;
+}
+
+.creditcard img {
+    height: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 20px;
+}
