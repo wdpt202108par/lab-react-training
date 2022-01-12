@@ -1,0 +1,10 @@
+.random {
+    border: 1px solid;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.random >p {
+    padding-left: 5px;
+    line-height: 2px;
+}
